@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #080808;
+    margin: 0;
+    padding: 0;
+    background-image: url('public/imagenes/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    }
+    
+    h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    
+    form {
+    margin: 0 auto;
+    max-width: 500px;
+    border: 2px solid #070707;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    }
+    
+    /* Estilos para las etiquetas */
+    label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #080808;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    
+    /* Estilos para los campos de texto */
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    outline: none;
+    }
+    
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    input[type="tel"]:focus,
+    select:focus {
+    border-color: #45a049;
+    }
+    
+    /* Estilos para el botón de enviar */
+    input[type="submit"] {
+    background-color: #45a049;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+    input[type="submit"]:hover {
+    background-color: #388e3c;
+    }
+    
+    /* Estilos para el checkbox */
+    input[type="checkbox"] {
+    margin-top: 10px;
+    margin-right: 10px;
+    }
+    
+    /* Estilos para los mensajes de error */
+    input:invalid {
+    border-color: #060606;
+    }
+    
+    input:invalid:focus {
+    background-color: #ffe6e6;
+    }
+    
+  

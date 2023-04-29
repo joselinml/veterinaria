@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Form Membresia</title>
+  </head>
+  <body>
+    
+      <h1>Formulario de registro de membresía</h1>
+      <form action="/registrar" method="post" enctype="multipart/form-data">
+        <label for="nombre">Nombre completo del dueño:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+
+        <label for="direccion">Dirección:</label>
+        <input type="text" id="direccion" name="direccion" required>
+        <br><br>
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="text" id="correo" name="correo" required>
+        <br><br>
+
+        <label for="fecha">Fecha de registro:</label>
+        <input type="date" id="fecha" name="fecha_registro" required>
+        <br><br>
+
+        <label for="tipo_membresia">Tipo de membresia:</label>
+        <select id="tipo_membresia" name="tipo_membresia" required>
+          <option value="premium" >Premium</option>
+          <option value="basica" >Básica</option>
+        </select>
+        <br><br>
+
+        <label for="fecha_inicio">Fecha de inicio:</label>
+        <input type="date" id="fecha_inicio" name="fecha_inicio" required>
+        <br><br>
+
+        <label for="fecha_vencimiento">Fecha de vencimiento:</label>
+        <input type="date" id="fecha_vencimiento" name="fecha_vencimiento" required>
+        <br><br>
+
+        <label for="mascota">Nombre de la mascota:</label>
+        <input type="text" id="mascota" name="mascota" required>
+        <br><br>
+        <label for="especie">Especie de la mascota:</label>
+        <input type="text" id="especie" name="especie" required>
+        <br><br>
+        <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+        <br><br>
+
+        <label for="raza">Raza de la mascota:</label>
+        <input type="text" id="raza" name="raza" required>
+        <br><br>
+
+        <label for="sexo">Sexo de la mascota:</label>
+        <select id="sexo" name="sexo" required>
+          <option value="">Seleccione el sexo</option>
+          <option value="Macho">Macho</option>
+          <option value="Hembra">Hembra</option>
+        </select>
+        <br><br>
+
+        <label for="foto">Fotografía de la mascota:</label>
+        <input type="file" id="foto" name="foto" accept="image/*" required>
+        <br><br>
+
+        <label for="aceptar">Acepto los términos y condiciones:</label>
+        <input type="checkbox" id="aceptar" name="aceptar" required>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </body>
+  
+</html>
